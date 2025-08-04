@@ -19,9 +19,9 @@ def login():
     user = username_entry.get()
     pwd = password_entry.get()
     if user == "tahsanNafis" and pwd == "jibranisverycool12@4":
-        messagebox.showinfo("Success", "Logged in!")
+        messagebox.showinfo("Good boy....", "Logged in!")
     else:
-        messagebox.showerror("Error", "Invalid credentials")
+        messagebox.showerror("Bad boy....", "Invalid credentials")
 
 # Style + Widgets
 frame = tk.Frame(root, bg="#2a2a2a", bd=0)
